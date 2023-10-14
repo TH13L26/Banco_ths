@@ -1,0 +1,100 @@
+.tudo{
+    margin-left: 80px;
+    width: 90%;
+    height: auto;
+    display: flex;
+}
+
+.menina{
+    width: 50%;
+    height: 500px;
+}
+
+.cel{
+    width: 100%;
+    height: 70%;
+    margin-top: 180px;
+    margin-bottom: -70px;
+}
+
+.bto{
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    align-items: center;
+    color: #FFF;
+    width: 15%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.sub{
+    font-size: max(18px, 2vw);
+}
+
+.cel h2{
+    font-size: max(30px, 3vw);
+    text-align: center;
+}
+
+.subb{
+    margin-top: 50px;
+    font-size: max(15px, 1.6vw);
+    text-align: justify;
+}
+
+@media (max-width: 1393px){
+    .quadro{
+        width: max(900, 3vw);
+        margin-left: max(200, 3vw);
+        
+    }
+
+    .tudo{
+        flex-direction: column;
+        margin-left: 27px;
+        height: auto;
+    }
+
+    .cel{
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-bottom: -150px;
+    }
+
+    .bto{
+        width: 20%
+    }
+}
+
+@media (max-width: 1939px){
+    .cel{
+        margin-top: 300px;
+        margin-left: 10px;
+        margin-bottom: -150px;
+    }
+}
+
+@media (max-width: 700px){
+    .quadro{
+        width: max(300, 1vw);
+        margin-left: -137px
+    }
+}
+
+@media (max-width: 480px){
+    .quadro{
+        margin-left: -40px;
+        width: 450px;
+        
+    }
+
+    .cel{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: -150px;
+    }
+}
