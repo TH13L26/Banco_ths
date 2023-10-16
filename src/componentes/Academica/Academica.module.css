@@ -3,22 +3,27 @@
     width: 90%;
     height: auto;
     display: flex;
+    /* border-top: 30px solid #C29C55;
+    border-bottom: 30px solid #C29C55; */
 }
 
 .menina{
     width: 50%;
     height: 500px;
+    margin-left: -115px;
 }
+
 
 .cel{
     width: 100%;
     height: 70%;
-    margin-top: 180px;
+    margin-top: 75px;
     margin-bottom: -70px;
 }
 
+
 .bto{
-    background-color: #ff0000;
+    background-color: #C29C55;
     display: flex;
     justify-content: space-between;
     border: 0px;
@@ -28,11 +33,15 @@
     height: 30px;
     border-radius: 15px;
     margin-top: 10px;
+    margin-bottom: 50px;
     padding: 20px;
+    cursor:pointer;
+    font-size: 20px;
 }
 
 .sub{
     font-size: max(18px, 2vw);
+    margin-top: 110px;
 }
 
 .cel h2{
@@ -46,11 +55,18 @@
     text-align: justify;
 }
 
+@media (max-width: 1273px){
+    .cel{
+        margin-top: 320px;
+        margin-left: 10px;
+        margin-bottom: -150px;
+    }
+}
+
 @media (max-width: 1393px){
     .quadro{
         width: max(900, 3vw);
         margin-left: max(200, 3vw);
-        
     }
 
     .tudo{
@@ -60,7 +76,7 @@
     }
 
     .cel{
-        margin-top: 40px;
+        margin-top: 320px;
         margin-left: 10px;
         margin-bottom: -150px;
     }
@@ -70,13 +86,15 @@
     }
 }
 
-@media (max-width: 1939px){
+
+
+/* @media (max-width: 1939px){
     .cel{
         margin-top: 300px;
         margin-left: 10px;
         margin-bottom: -150px;
     }
-}
+} */
 
 @media (max-width: 700px){
     .quadro{
@@ -85,16 +103,38 @@
     }
 }
 
+
 @media (max-width: 480px){
     .quadro{
-        margin-left: -40px;
+        margin-left: 32px;
         width: 450px;
-        
     }
 
     .cel{
-        margin-top: 50px;
-        margin-left: 10px;
+        margin-top: -70px;
+        margin-left: -2px;
         margin-bottom: -150px;
+    }
+
+    .bto{
+        width: 40%;
+    }
+}
+
+@media (max-width: 320px){
+    .quadro{
+        margin-left: -85px;
+        width: max(390px, 1vw);
+    }
+
+    .cel{
+        margin-top: -30px;
+        margin-left: -10px;
+        margin-bottom: -150px;
+    }
+
+    .bto{
+        width: 35%;
+        height: 30px
     }
 }

@@ -18,7 +18,7 @@ function Baner() {
 
        <div className={Style.forms}>
         <h3>Venha ser THS o banco que conbina com a sua rotina!</h3>
-        <label for="cpf"><span className={Style.nome}>Digite seu CPF</span>
+        <label for="cpf"><span className={Style.nome}><p>Digite seu CPF</p></span>
         <input type="tel" className={Style.campo}></input>
         </label>
         <button type="submit" className={Style.bto}>Continuar</button>

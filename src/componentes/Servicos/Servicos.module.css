@@ -26,7 +26,7 @@
    
  .item_0 {
  
-    background-color: #353FBB; 
+    background-color: #001B52; 
     grid-column-start: 1;
     color: #FFF;
     grid-column-end: 3;
@@ -42,7 +42,7 @@
 
  .item_1 {
  
-    background-color: #353FBB; 
+    background-color: #001B52; 
     grid-row-start: 2;
     grid-column-start: 1;
     color: #FFF;
@@ -59,7 +59,7 @@
 
  .item_2 {
  
-    background-color: #353FBB; 
+    background-color: #001B52; 
     grid-row-start: 1;
     grid-column-start: 3;
     color: #fff;
@@ -76,7 +76,7 @@
 
  .item_3 {
  
-    background-color: #353FBB; 
+    background-color: #001B52; 
     grid-row-start: 2;
     grid-column-start: 3;
     color: #FFF;
@@ -93,7 +93,7 @@
 
  .item_4 {
  
-    background-color: #353FBB; 
+    background-color: #001B52; 
     grid-row-start: 1;
     grid-column-start: 5;
     color: #FFF;
@@ -110,7 +110,7 @@
 
  .item_5 {
  
-    background-color: #353FBB; 
+    background-color: #001B52; 
     grid-row-start: 2;
     grid-column-start: 5;
     color: #FFF;
@@ -140,7 +140,7 @@
    
     .item_0 {
 
-        background-color: #353FBB; 
+        background-color: #001B52; 
         grid-row-start: 1;
         grid-column-start: 1;
         grid-row-end: 2;
@@ -148,7 +148,7 @@
      }
 
      .item_1 {
-        background-color: #353FBB; 
+        background-color: #001B52; 
         grid-row-start: 1;
         grid-column-start: 3;
         grid-row-end: 2;
@@ -157,7 +157,7 @@
 
      .item_2 {
      
-        background-color: #353FBB; 
+        background-color: #001B52; 
         grid-row-start: 2;
         grid-column-start: 1;
      
@@ -167,7 +167,7 @@
      }
      .item_3 {
      
-        background-color: #353FBB; 
+        background-color: #001B52; 
         grid-row-start: 2;
         grid-column-start: 3;
      
@@ -177,7 +177,7 @@
      }
      .item_4 {
      
-        background-color: #353FBB; 
+        background-color: #001B52; 
         grid-row-start: 3;
         grid-column-start: 1;
      
@@ -187,7 +187,7 @@
      }
      .item_5 {
      
-        background-color: #353FBB; 
+        background-color: #001B52; 
         grid-row-start: 3;
         grid-column-start: 3;
      
