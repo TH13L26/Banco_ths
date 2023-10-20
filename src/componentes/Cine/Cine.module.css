@@ -1,10 +1,5 @@
 .cinemao{
-    width: 1688px;
+    width: 1518px;
     height: 480px;
 }
 
-@media (max-width: 1688px){
-    .cinemao{
-        display: none;
-    }
-}
